@@ -1,0 +1,61 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    padding: 7px 20px;
+}
+ #logo img{
+    filter: invert(1);
+    height: 47px;
+    padding: 6px 0px;
+    margin: 4px 2px;
+}
+ 
+h2{
+    font-size: 38px;
+}
+
+.con{
+    height: 592px;
+    background-color: #f1a9a9;
+    padding: 41px 0px;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.myinput{
+    width: 47%;
+    padding: 8px 18px;
+    margin: 7px 10px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 12px;
+    outline: none;
+}
+
+#btn{
+    border: 2px solid black;
+    color: white;
+    padding: 5px 21px;
+    margin: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    outline: none;
+    background-color: #f83838;
+}
+
+#btn:hover{
+    color: black;
+}

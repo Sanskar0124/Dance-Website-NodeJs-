@@ -1,0 +1,17 @@
+@media only screen and (max-width: 500px){
+    #navbar{
+        background-color: yellow;
+        color : black;
+    }
+    #introSection{
+        height:475px;
+        color: blue;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: center/cover no-repeat url('/static/intro.jpg') ;
+        font-family: 'Lora', serif;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Courgette&family=Kalam&family=Lora:ital@1&family=Reggae+One&family=Righteous&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    background-color: #d13131;
+    
+}
+
+ ul{
+    display: flex;
+    align-items: center;
+    padding: 3px 20px;
+ }
+
+ #logo{
+    display: flex;
+    font-size: 17px;
+    color: white;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 4px;
+ }
+
+ #logo img{
+    filter: invert(1);
+    height: 38px;
+    padding: 6px 0px;
+    margin: 4px 2px;
+ }
+
+ li{
+     list-style-type: none;
+     padding: 6px 2px;
+ }
+
+ li a{
+    color: white;
+    text-decoration: none;
+    padding: 3px 1px;
+    margin: 10px 9px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Reggae One', cursive;
+ }
+
+ li a:hover{
+     color: black;
+ }
+ 
+ #introSection{
+    height:475px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url('/static/intro.jpg') ;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+ }
+
+ #introSection div{
+    font-size: 44px;
+ }
+
+ #introSection div.small{
+     font-size: 32px;
+     padding: 2px;
+     padding-bottom: 40px;
+ }
+
+ #missionSection{
+    height: 350px;
+    background-color: #ea8181;
+    margin: 0px;
+    padding: 1px;
+}
+
+.container{
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+ .card{
+    height: 224px;
+    width: 368px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 11px 20px;
+ }
+
+ .card-box{
+    display:flex
+ }
+
+ .card-img{
+    padding: 0px 0px;
+    margin: 6px 17px;
+    height: 175px;
+ }
+
+ .card-img img{
+     height: inherit;
+ }
+
+.card-content{
+   font-size: 20px;
+   font-family: 'Kalam', cursive;
+   padding: 11px 41px;
+   padding: 37px 20px;
+  } 
+
+  .card h3{
+      text-align: center;
+      margin-top: 10px;
+  }
+
+ #sponsorSection{
+   height: 340px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgb(255 70 65 / 96%);
+   font-family: 'Courgette', cursive;
+   padding: 0px 0px;
+   margin-bottom: -8px;
+ }
+ 
+ .sponsor-img img{
+   height: 140px;
+    margin: 25px 5px;
+    padding: 7px 7px;
+}
+
+ h2{
+     font-size: 30px;
+     margin: 8px;
+     padding-top: 5px;
+     font-family: 'Courgette', cursive;
+     text-align: center;
+ }
+
+ #footer{
+    background-color: black;
+ }
+
+ #footer p{
+   color: white;
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Benne', serif;
+ }
