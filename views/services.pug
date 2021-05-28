@@ -1,0 +1,13 @@
+extend base.pug
+
+block script
+    script(src='/static/index.js')
+    
+block style 
+    style
+        include ../static/index.css
+    
+block content  
+    div.con
+        div.heading
+            h2 Services Page
