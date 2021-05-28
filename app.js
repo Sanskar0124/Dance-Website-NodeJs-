@@ -59,5 +59,5 @@ app.post('/contact',(req, res)=>{
 
 // START THE SERVER
 app.listen(port, ()=>{
-    console.log(`server is running successfully on port ${port}`)
+    console.log(`server is running successfully on port http://127.0.0.1/:${port}`)
 })
